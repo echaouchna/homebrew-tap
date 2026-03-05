@@ -3,7 +3,7 @@ cask "git-scope" do
   name "git-scope"
   desc "Fast TUI dashboard for managing many Git repositories"
   homepage "https://github.com/echaouchna/git-scope"
-  version "1.0.0"
+  version "1.1.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "git-scope" do
   on_macos do
     on_intel do
       url "https://github.com/echaouchna/git-scope/releases/download/v#{version}/git-scope_#{version}_darwin_amd64.tar.gz"
-      sha256 "46682f07368a3670b71aeed7f462d1592ec4ff2c1addcea51f73fb454549972b"
+      sha256 "eff3c6439cf99379bb69ebc7e978faf20a89fedd53c37ed25bd8dcbe2998d0bd"
     end
     on_arm do
       url "https://github.com/echaouchna/git-scope/releases/download/v#{version}/git-scope_#{version}_darwin_arm64.tar.gz"
-      sha256 "d933e49d97fef97000627a9c224d2f8328535467f5ed2a788ca50bac1c4e311c"
+      sha256 "9b8650aaf38294e09fec8793378e511299bc5c3069319d4f459567c3a2f9c2b4"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/echaouchna/git-scope/releases/download/v#{version}/git-scope_#{version}_linux_amd64.tar.gz"
-      sha256 "ff69ed71887a6eaeabb4c8cf440b8b7393bb67f882d04e555e1882a3dad2b0ea"
+      sha256 "b42c2eeac161a5264de0cecd3927ffafba80548fee591fcb4a26bc4db1281b78"
     end
     on_arm do
       url "https://github.com/echaouchna/git-scope/releases/download/v#{version}/git-scope_#{version}_linux_arm64.tar.gz"
-      sha256 "2ece62e5d0d784ada88fd0d8b67e4095ed59bb057fdf25ef5ff3193d504cc0b0"
+      sha256 "7e65fc84ae561b1045b4e8597137699f295c351c52d4181da31b95dde0206e3d"
     end
   end
 
