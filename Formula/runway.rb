@@ -11,23 +11,23 @@ class Runway < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/echaouchna/runway/releases/download/v0.1.0/runway-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "cabee0351401b1a0869616e1d14e0861b9ea9ac420740703a1679611183b758d"
+      url "https://github.com/echaouchna/runway/releases/download/v0.1.1/runway-v0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "a22b465af7bba3c3247f2fa0b272501ffb0f98eb04b0e65e723aca319dd20b7d"
     end
     on_intel do
-      url "https://github.com/echaouchna/runway/releases/download/v0.1.0/runway-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "80698ec3d5a74aa12b7638a5c3be40c5a4a6974e05a37e3459987446193d84d8"
+      url "https://github.com/echaouchna/runway/releases/download/v0.1.1/runway-v0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "02c95afab82bbe50b201b4550cc5d818f9ed4bea371c8261071458f23c7eec12"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/echaouchna/runway/releases/download/v0.1.0/runway-v0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "25d13926a44dd95a51a61219b65fee4600dc8898b93328a75872123712dafa09"
+      url "https://github.com/echaouchna/runway/releases/download/v0.1.1/runway-v0.1.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "4981435583f549670eb008c7e36c631cf37e47181e49bf902027921c0bbde462"
     end
     on_intel do
-      url "https://github.com/echaouchna/runway/releases/download/v0.1.0/runway-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e9688ed25dc500334e8b6167f838752fc82800d7f336767150765a604b4f5991"
+      url "https://github.com/echaouchna/runway/releases/download/v0.1.1/runway-v0.1.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f1d585c1aa602d628c93f6f0f8f1f5db6d08639b2581f6f9dfc21e0dfe79f1d4"
     end
   end
 
