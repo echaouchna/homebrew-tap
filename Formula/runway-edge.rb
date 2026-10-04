@@ -2,7 +2,7 @@
 class RunwayEdge < Formula
   desc "Deploy applications to Google Cloud Run (development build of main)"
   homepage "https://echaouchna.github.io/runway/"
-  version "0.1.0-edge.1"
+  version "0.1.1-edge.3"
   license "Apache-2.0"
 
   livecheck do
@@ -11,23 +11,23 @@ class RunwayEdge < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/echaouchna/runway/releases/download/edge/runway-v0.1.0-edge.1-aarch64-apple-darwin.tar.gz"
-      sha256 "ccc6f9a92f3dab20cffe8e720f79ef5f7618a0ce01c1accb3a4cce4f35091c74"
+      url "https://github.com/echaouchna/runway/releases/download/edge/runway-v0.1.1-edge.3-aarch64-apple-darwin.tar.gz"
+      sha256 "730477946d67002412b9ca5576e6cc15c31869ec7537715b003ad6480af8b692"
     end
     on_intel do
-      url "https://github.com/echaouchna/runway/releases/download/edge/runway-v0.1.0-edge.1-x86_64-apple-darwin.tar.gz"
-      sha256 "5d54129ee144f140f8fa698b68d66877f713ab4afc98635f02760179baf0d8d6"
+      url "https://github.com/echaouchna/runway/releases/download/edge/runway-v0.1.1-edge.3-x86_64-apple-darwin.tar.gz"
+      sha256 "a33881f8b95490cbbfd51b652a9150f35b34779923771375089594df03128f56"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/echaouchna/runway/releases/download/edge/runway-v0.1.0-edge.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "8dd457b32f61b38dbed2a82cbeac54cd78ff82a1bf397c3845fb657cb2bddba0"
+      url "https://github.com/echaouchna/runway/releases/download/edge/runway-v0.1.1-edge.3-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "7fd1e436c0c5090bde881b0c75751aac2078f96a61d21509ea5724f8a40d2c46"
     end
     on_intel do
-      url "https://github.com/echaouchna/runway/releases/download/edge/runway-v0.1.0-edge.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3ccf20c9fe5e42a01b6355aafcb5e253f51a1ef07e9d0b50d8b450e31d45cbac"
+      url "https://github.com/echaouchna/runway/releases/download/edge/runway-v0.1.1-edge.3-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "124b7984ef8e1204b8ba8ddeb599ea60d42bb15cf47abb7da29c9e2fb987c10c"
     end
   end
 
