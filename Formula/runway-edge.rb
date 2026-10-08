@@ -2,7 +2,7 @@
 class RunwayEdge < Formula
   desc "Deploy applications to Google Cloud Run (development build of main)"
   homepage "https://runway.echaouchna.dev/"
-  version "0.1.1-edge.13"
+  version "0.1.1-edge.14"
   license "Apache-2.0"
 
   livecheck do
@@ -10,24 +10,21 @@ class RunwayEdge < Formula
   end
 
   on_macos do
+    depends_on arch: :arm64
     on_arm do
-      url "https://github.com/echaouchna/runway/releases/download/edge/runway-v0.1.1-edge.13-aarch64-apple-darwin.tar.gz"
-      sha256 "dd7128b9f42a49ccf60e4de42d0627a855c1c40a20bbe7db77f73e7633f1c7f7"
-    end
-    on_intel do
-      url "https://github.com/echaouchna/runway/releases/download/edge/runway-v0.1.1-edge.13-x86_64-apple-darwin.tar.gz"
-      sha256 "0b6892665cbb99c91582246b1ad082cdae09880a4b99eef42ebe20d018e658ee"
+      url "https://github.com/echaouchna/runway/releases/download/edge/runway-v0.1.1-edge.14-aarch64-apple-darwin.tar.gz"
+      sha256 "85ac338420f57c1d700fd6d3801a3a9e105364642d7e95bc35ec7bdc8b1030ff"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/echaouchna/runway/releases/download/edge/runway-v0.1.1-edge.13-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "745e22e1608040791d299dd213c49e622f6b962bf4165f8a62540c8ceeeb6057"
+      url "https://github.com/echaouchna/runway/releases/download/edge/runway-v0.1.1-edge.14-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "8fca8ceffd37adf17ec11de8d23c94a1f90386d250ca43c274843032bfde59e6"
     end
     on_intel do
-      url "https://github.com/echaouchna/runway/releases/download/edge/runway-v0.1.1-edge.13-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8721ccf8b17f376906552d1af2d0c21427dc63cf73bbafef4f965891309cb9f9"
+      url "https://github.com/echaouchna/runway/releases/download/edge/runway-v0.1.1-edge.14-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "d7bae61719451f6f1886ba5230a3e51a897dfab79423265fb48012fa984bdd5a"
     end
   end
 
