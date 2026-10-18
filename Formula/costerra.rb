@@ -2,7 +2,7 @@
 class Costerra < Formula
   desc "Fast cost estimates and optimization insights for Google Cloud Terraform & Terragrunt"
   homepage "https://costerra.echaouchna.dev/"
-  version "0.3.0"
+  version "0.3.1"
   license "Apache-2.0"
 
   livecheck do
@@ -12,28 +12,29 @@ class Costerra < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/echaouchna/costerra/releases/download/v0.3.0/costerra-v0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "5eb71e658ee99fc05f643f172ca924a4ac1a4983635d7b27ecc7bdeabe0575c1"
+      url "https://github.com/echaouchna/costerra/releases/download/v0.3.1/costerra-v0.3.1-aarch64-apple-darwin.tar.gz"
+      sha256 "754b11b2ea063aed74a399d687c87fb1bd1e3be397e2d336563c495d5ebadbfd"
     end
     on_intel do
-      url "https://github.com/echaouchna/costerra/releases/download/v0.3.0/costerra-v0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "c2601027854779bf397e84e5e14a10f3d03ed94f3af15cd6550d8e773edb0861"
+      url "https://github.com/echaouchna/costerra/releases/download/v0.3.1/costerra-v0.3.1-x86_64-apple-darwin.tar.gz"
+      sha256 "df2f0d272ebe6a6c45dd8d76c1c6b5cb62b3685703b888c912a13cc572f9edcc"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/echaouchna/costerra/releases/download/v0.3.0/costerra-v0.3.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "1c4e3ef78df4c01c0d4d535b3b6a2448260d651c880ef240abdf041bebf9c016"
+      url "https://github.com/echaouchna/costerra/releases/download/v0.3.1/costerra-v0.3.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "6d5969eeb3c5d15658bece4fd2b761f2fc7eb2850ce3ac43d97d1dc2bdc2c3f7"
     end
     on_intel do
-      url "https://github.com/echaouchna/costerra/releases/download/v0.3.0/costerra-v0.3.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4534327050268255bc881e28b30bd1e8de369c54f95ad090eb152e3448fd27e3"
+      url "https://github.com/echaouchna/costerra/releases/download/v0.3.1/costerra-v0.3.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "61935c22dcf7e7329cab52ee4d6d316a53d3445d32783e964d493bb1200ae463"
     end
   end
 
   def install
     bin.install "costerra"
+    generate_completions_from_executable(bin/"costerra", "completions", shells: [:bash, :zsh, :fish])
   end
 
   test do
