@@ -2,7 +2,7 @@
 class Costerra < Formula
   desc "Fast cost estimates and optimization insights for Google Cloud Terraform & Terragrunt"
   homepage "https://costerra.echaouchna.dev/"
-  version "0.3.1"
+  version "0.4.0"
   license "Apache-2.0"
 
   livecheck do
@@ -12,23 +12,23 @@ class Costerra < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/echaouchna/costerra/releases/download/v0.3.1/costerra-v0.3.1-aarch64-apple-darwin.tar.gz"
-      sha256 "754b11b2ea063aed74a399d687c87fb1bd1e3be397e2d336563c495d5ebadbfd"
+      url "https://github.com/echaouchna/costerra/releases/download/v0.4.0/costerra-v0.4.0-aarch64-apple-darwin.tar.gz"
+      sha256 "4b0ac27e5a1f0c50c82c1c3f08f5193b140a89b4cdfe0d6708670e73c476f046"
     end
     on_intel do
-      url "https://github.com/echaouchna/costerra/releases/download/v0.3.1/costerra-v0.3.1-x86_64-apple-darwin.tar.gz"
-      sha256 "df2f0d272ebe6a6c45dd8d76c1c6b5cb62b3685703b888c912a13cc572f9edcc"
+      url "https://github.com/echaouchna/costerra/releases/download/v0.4.0/costerra-v0.4.0-x86_64-apple-darwin.tar.gz"
+      sha256 "5912b879e90455a48bb44a4e41118ec02fbb4c28a5c8fcbeee6085292a7891b9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/echaouchna/costerra/releases/download/v0.3.1/costerra-v0.3.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6d5969eeb3c5d15658bece4fd2b761f2fc7eb2850ce3ac43d97d1dc2bdc2c3f7"
+      url "https://github.com/echaouchna/costerra/releases/download/v0.4.0/costerra-v0.4.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "1afb55a46f5a10fc1abcc8e2c8968614af417b1718d3f9b5e7d77e11a0d1fe3c"
     end
     on_intel do
-      url "https://github.com/echaouchna/costerra/releases/download/v0.3.1/costerra-v0.3.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "61935c22dcf7e7329cab52ee4d6d316a53d3445d32783e964d493bb1200ae463"
+      url "https://github.com/echaouchna/costerra/releases/download/v0.4.0/costerra-v0.4.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "90d36d19bf70926e6499069cef41aadf44d56b5c35024ec6ec866a1bc785007f"
     end
   end
 
