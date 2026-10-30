@@ -2,7 +2,7 @@
 class Costerra < Formula
   desc "Fast cost estimates and optimization insights for Google Cloud Terraform & Terragrunt"
   homepage "https://costerra.echaouchna.dev/"
-  version "0.4.1"
+  version "0.4.2"
   license "Apache-2.0"
 
   livecheck do
@@ -12,23 +12,23 @@ class Costerra < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/echaouchna/costerra/releases/download/v0.4.1/costerra-v0.4.1-aarch64-apple-darwin.tar.gz"
-      sha256 "1613f4bfbeef9875ed3524954964d576f1578546e2597fbf1755daa6246f855e"
+      url "https://github.com/echaouchna/costerra/releases/download/v0.4.2/costerra-v0.4.2-aarch64-apple-darwin.tar.gz"
+      sha256 "77face263c2e857315f13ed9ac1c7ddc0ae57e3a74365e4dccea9f585c6754f9"
     end
     on_intel do
-      url "https://github.com/echaouchna/costerra/releases/download/v0.4.1/costerra-v0.4.1-x86_64-apple-darwin.tar.gz"
-      sha256 "3ad83c7a4b16a89492e15a52b1fa648580a8faed3d72b55dbcfc31566bcab3d6"
+      url "https://github.com/echaouchna/costerra/releases/download/v0.4.2/costerra-v0.4.2-x86_64-apple-darwin.tar.gz"
+      sha256 "98c858253f611ad02a2b12859e3b6f1ce23fc1d003bab1160dc7053f752369dc"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/echaouchna/costerra/releases/download/v0.4.1/costerra-v0.4.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5e44c346a7de611ce4c8e06a66e64951b3a660b21c328b0769cfe73b5bea1a31"
+      url "https://github.com/echaouchna/costerra/releases/download/v0.4.2/costerra-v0.4.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "582b1f1fa660d12a633ef3d425b6375fdceaf5fea5247c4be02c000e6a9b91da"
     end
     on_intel do
-      url "https://github.com/echaouchna/costerra/releases/download/v0.4.1/costerra-v0.4.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "950886c5c52e9bdf21ac70b2daafd2ba205859294e905629c4f983bd75c4f5f6"
+      url "https://github.com/echaouchna/costerra/releases/download/v0.4.2/costerra-v0.4.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "8c758e0b2f84ca0dff88631fc2e7c52a34d96b4c3de050fcb267557dce5f4da6"
     end
   end
 
